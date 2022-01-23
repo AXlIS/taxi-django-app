@@ -12,6 +12,11 @@ services:
       - ./server/.env
     depends_on:
       - server-db
+
+  taxi-redis:
+    container_name: taxi-redis
+    image: redis:6-alpine
+
   server-db:
     image: postgres:14-alpine
     ports:
