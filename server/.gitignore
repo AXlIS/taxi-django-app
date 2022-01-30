@@ -2,3 +2,4 @@ venv
 *__init__*
 *__pycache__*
 *.sqlite3
+.idea
